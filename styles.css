@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+#hero{
+    /*top section picture and titles*/
+    background:url("images/lagos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 900px;
+    margin: 0px auto opx auto;
+}
+
+.hero-title{
+   margin: 30px;
+   background: ; 
+   padding: 4px 12px;
+   border-radius: 5px;
+}
+.hero-subtitle{
+    margin: 100px 0 40px 0px;
+    background: ; 
+    padding: 4px 12px;
+    border-radius: 5px;
+    
+}
+#activities{
+    background: #31557Fff;
+}
+.activities-box{
+    display: flex;
+    justify-content: space- around;
+    align-items: start;
+    margin: auto;
+    width: 900px;
+    padding: 60px 0px;
+    background: #31557Fff;
+    color:#8E6A4Cff ;
+    }
+.activity{
+    width: 200%;
+    
+}
+.activity-img{
+    width: 150px;
+    border-radius: 50%;
+}
+#yourguide{
+   padding: 60px 0px; 
+   background-color: whitesmoke;
+}
+
+.guide-card{
+    width: 425px;
+    margin: 30px auto;
+    padding: 15px;
+    display: flex;
+    background: #31557Fff;
+    border-bottom: 10px solid mediumorchid;
+    border-radius: 6px;
+}
+.guide-img{
+    /*the guide picture*/
+    width: 180px;
+    height: min-content;
+    border-radius: 6px;
+    margin: 25px 15px 25px 0px;
+
+}
+.guideinfo{
+    /*the guide's info and descriptive text*/
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
